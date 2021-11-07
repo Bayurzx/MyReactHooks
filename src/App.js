@@ -2,7 +2,7 @@ import './App.css';
 // import UseEffectClean from "./UseEffectClean";
 // import Counting from "./Counting";
 // import UseEffectInterval from './UseEffectInterval';
-import DataFetching from './DataFetching'
+import UsingReducer from './UsingReducer'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       {/* <Counting /> */}
       {/* <UseEffectInterval /> */}
       {/* <Arrays /> */}
-      <DataFetching />
+      <UsingReducer />
     </div>
   );
 }
