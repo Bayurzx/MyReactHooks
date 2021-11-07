@@ -1,13 +1,27 @@
 import React from "react";
-import { myContext } from "../AppComponent";
+import { myContext, channelContext } from "../AppComponent";
+
+// my is passed from the AppComponent
 
 function ComponentF() {
   return (
     <div>
       <myContext.Consumer>
         {
-          my => <div> User context value is {my} </div>
-        }        
+          my => {
+            return (
+              <channelContext.Consumer>
+                {
+                  chan => {
+                    return (
+                      <div> User context value is {my} and channelContext is {chan} </div>
+                    )
+                  }
+                }
+              </channelContext.Consumer>
+            )
+          }
+        }
       </myContext.Consumer>
     </div>
   );
