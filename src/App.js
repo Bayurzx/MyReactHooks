@@ -2,7 +2,7 @@ import './App.css';
 // import UseEffectClean from "./UseEffectClean";
 // import Counting from "./Counting";
 // import UseEffectInterval from './UseEffectInterval';
-import UsingReducer2 from './UsingReducer2'
+import UsingReducer3 from './UsingReducer3'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       {/* <Counting /> */}
       {/* <UseEffectInterval /> */}
       {/* <Arrays /> */}
-      <UsingReducer2 />
+      <UsingReducer3 />
     </div>
   );
 }
