@@ -3,7 +3,8 @@ import './App.css';
 // import Counting from "./Counting";
 // import UseEffectInterval from './UseEffectInterval';
 // import UsingReducer3 from './UsingReducer3'
-import UseReduceDataFetch from './UseReduceDataFetch'
+// import UseReduceDataFetch from './UseReduceDataFetch'
+import UserForm from './UserForm';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <UseEffectInterval /> */}
       {/* <Arrays /> */}
       {/* <UsingReducer3 /> */}
-      <UseReduceDataFetch />
+      {/* <UseReduceDataFetch /> */}
+      <UserForm />
     </div>
   );
 }
