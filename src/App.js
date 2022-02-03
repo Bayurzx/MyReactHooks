@@ -1,4 +1,5 @@
 import './App.css';
+import Todo from './Todo';
 // import UseEffectClean from "./UseEffectClean";
 // import Counting from "./Counting";
 // import UseEffectInterval from './UseEffectInterval';
@@ -15,7 +16,8 @@ function App() {
       {/* <Arrays /> */}
       {/* <UsingReducer3 /> */}
       {/* <UseReduceDataFetch /> */}
-      <UserForm />
+      {/* <UserForm /> */}
+      <Todo />
     </div>
   );
 }
